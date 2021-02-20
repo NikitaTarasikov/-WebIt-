@@ -765,6 +765,7 @@ body {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  min-height: 355px;
 }
 
 .services__card:hover {
@@ -830,9 +831,8 @@ body {
   color: #fbf5ff;
 }
 
-.work_buttons {
-  margin-top: 130px;
-  padding: 10px 35px;
+.work__buttons-item {
+  font-size: 12px;
 }
 
 .work__buttons-item.work__buttons-item--active {
